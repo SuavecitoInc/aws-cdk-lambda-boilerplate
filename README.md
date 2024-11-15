@@ -27,3 +27,7 @@ To define your CDK, stack follow the instructions for your preferred programming
 - The location of the function code, specified in the code property. For more information, see Handler code in the AWS Cloud Development Kit (AWS CDK) API Reference.
 - The REST API's logical name: HelloApi
 - The API Gateway endpoint's logical name: ApiGwEndpoint
+
+### Bundling
+
+[Bundle Dependencies](./BUNDLE.md)
