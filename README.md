@@ -31,3 +31,13 @@ To define your CDK, stack follow the instructions for your preferred programming
 ### Bundling
 
 [Bundle Dependencies](./BUNDLE.md)
+
+## Setup
+
+AWS CLI version 2 must be installed and configured. You can find instructions [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
+
+Bootstrap your environment for use with the AWS CDK. You can find more info [here](https://docs.aws.amazon.com/cdk/v2/guide/bootstrapping-env.html).
+
+```bash
+cdk bootstrap --trust=ACCOUNT_ID --cloudformation-execution-policies=arn:aws:iam::aws:policy/AdministratorAccess --verbose
+```
